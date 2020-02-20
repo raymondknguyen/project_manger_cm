@@ -7,17 +7,24 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link rel="stylesheet" href="/assets/stylesheets/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
   </head>
 
   <body>
-  <nav class = "topnav">
-      <%= link_to "Home", "/"%>
-      <%= link_to "Finished Projects", "/projects"%>
-      <%= link_to "Apply for Quote", "/apply" %>
-      <%= link_to "Log Out", "/logout" %>
-      <%= link_to "Register", "/register"%>
-      <%= link_to "Log In", "/login" %>
-    </nav>
-    <%= yield %>
+    <div id="navbar">
+      <a href="#default" id="logo">CompanyLogo</a>
+      <div id="navbar-right">
+          <a class="active" href="/">Home</a>
+          <%= link_to "Finished Projects", "/projects"%>
+          <%= link_to "Apply for Quote", "/apply" %>
+          <%= link_to "Log Out", "/logout" %>
+          <%= link_to "Register", "/register"%>
+          <%= link_to "Log In", "/login" %>
+      </div>
+    </div>
+    <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+      <%= yield %>
+    </div>
   </body>
 </html>
