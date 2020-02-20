@@ -5,7 +5,7 @@ RSpec.describe 'Site Navigation', type: :feature do
     it "I see a nav bar with links to Home page" do
     visit '/'
 
-    within 'nav' do
+    within '#navbar' do
       click_link 'Home'
     end
 
@@ -15,7 +15,7 @@ RSpec.describe 'Site Navigation', type: :feature do
     it "can visit projects page" do
       visit '/'
 
-      within 'nav' do
+      within '#navbar' do
         click_link 'Finished Projects'
       end
     end

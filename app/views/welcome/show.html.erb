@@ -1,0 +1,8 @@
+<center>
+<h1>LOGIN PAGE</h1>
+<% if current_user %>
+  <%= link_to "Log Out", "/logout" %>
+<% else %>
+  <%= link_to "Log In", "/login" %>
+<% end %>
+</center>
