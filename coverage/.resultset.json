@@ -259,6 +259,27 @@
           null
         ]
       },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/welcome/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/welcome_controller.rb": {
         "lines": [
           1,
@@ -274,6 +295,6 @@
         ]
       }
     },
-    "timestamp": 1581129393
+    "timestamp": 1582162897
   }
 }
