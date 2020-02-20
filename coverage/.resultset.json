@@ -244,6 +244,8 @@
           1,
           null,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -293,8 +295,16 @@
           1,
           null
         ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1582162897
+    "timestamp": 1582163476
   }
 }
