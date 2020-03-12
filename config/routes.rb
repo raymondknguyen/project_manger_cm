@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :projects
+  
   get '/', to: "welcome#index"
   get '/login_page', to: "welcome#show"
 
