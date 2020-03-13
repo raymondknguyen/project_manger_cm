@@ -5,11 +5,11 @@ RSpec.describe "projects/index", type: :view do
     assign(:projects, [
       Project.create!(
         :name => "Name",
-        :body => "MyText"
+        :description => "MyText"
       ),
       Project.create!(
         :name => "Name",
-        :body => "MyText"
+        :description => "MyText"
       )
     ])
   end

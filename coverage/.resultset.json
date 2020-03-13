@@ -242,6 +242,8 @@
         "lines": [
           1,
           1,
+          null,
+          1,
           1,
           null,
           1,
@@ -261,9 +263,139 @@
           null
         ]
       },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/helpers/projects_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/helpers/welcome_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/helpers/projects_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/model/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -281,6 +413,48 @@
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/models/project_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/models/project.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          3,
+          3,
+          null,
+          3,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -306,6 +480,62 @@
           1,
           1,
           null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/requests/projects_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/routing/projects_routing_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           null
@@ -366,6 +596,102 @@
           null
         ]
       },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/views/projects/edit.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/views/projects/index.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/views/projects/new.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/views/projects/show.html.erb_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/thunderwolf/code/projects/2020/project_manager_cm/spec/welcome/index_spec.rb": {
         "lines": [
           1,
@@ -393,27 +719,6 @@
           1,
           null,
           null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/thunderwolf/code/projects/2020/project_manager_cm/app/controllers/projects_controller.rb": {
-        "lines": [
-          1,
           1,
           null,
           null
@@ -454,6 +759,6 @@
         ]
       }
     },
-    "timestamp": 1583975246
+    "timestamp": 1584137332
   }
 }

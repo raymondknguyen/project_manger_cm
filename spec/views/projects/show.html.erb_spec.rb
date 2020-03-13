@@ -4,7 +4,7 @@ RSpec.describe "projects/show", type: :view do
   before(:each) do
     @project = assign(:project, Project.create!(
       :name => "Name",
-      :body => "MyText"
+      :description => "MyText"
     ))
   end
 

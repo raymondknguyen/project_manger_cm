@@ -16,17 +16,19 @@
       <a href="#default" id="logo">CompanyLogo</a>
       <div id="navbar-right">
           <a class="active" href="/">Home</a>
-          <%= link_to "Finished Projects", "/projects"%>
+          <%= link_to "Projects", "/projects"%>
           <%= link_to "Apply for Quote", "/apply" %>
       </div>
     </div>
     <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
-      <% flash.each do |name, msg| %>
-        <div class= "<%=name%>-flash">
-          <p><%= msg %></p>
-        </div>
-      <% end %>
-      <%= yield %>
+      <center>
+        <% flash.each do |name, msg| %>
+          <div class= "<%name%>-flash">
+            <p><%= msg %></p>
+          </div>
+        <% end %>
+        <%= yield %>
+      </center>
     </div>
   </body>
 </html>

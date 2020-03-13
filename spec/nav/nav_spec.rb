@@ -16,7 +16,7 @@ RSpec.describe 'Site Navigation', type: :feature do
       visit '/'
 
       within '#navbar' do
-        click_link 'Finished Projects'
+        click_link 'Projects'
       end
     end
   end
