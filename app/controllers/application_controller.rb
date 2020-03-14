@@ -9,11 +9,7 @@ class ApplicationController < ActionController::Base
   end
 
   def current_admin?
-    @current_user && current_user.user?
-  end
-
-  def require_user
-    render file: "/public/404" unless current_user
+    @current_user && @current_user.user?
   end
 
 end

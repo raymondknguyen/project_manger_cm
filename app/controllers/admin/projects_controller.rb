@@ -1,6 +1,6 @@
 class Admin::ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
-  before_action :current_admin?
+  
 
   # GET /projects/new
   def new
