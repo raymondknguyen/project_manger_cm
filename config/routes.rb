@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :projects
+  
+  namespace :admin do
+    resources :projects, only: [:new, :create, :edit, :update, :destroy]
+  end
+  resources :projects, only: %i[index show update]
+  post "/projects", to: "projects#create"
   
   get '/', to: "welcome#index"
   get '/login_page', to: "welcome#show"

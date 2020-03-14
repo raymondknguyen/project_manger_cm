@@ -1,5 +1,8 @@
 <h1>Projects</h1>
 
+<% if current_user %>
+<%= link_to 'New Project', new_admin_project_path %>
+<% end %><br>
 <table>
   <thead>
     <tr>
@@ -13,15 +16,15 @@
     <% @projects.each do |project| %>
       <tr>
         <td><%= project.name %></td>
-        <td><%= project.description %></td><br>
+        <td><%= project.description %></td>
         <td><%= link_to 'See Pictures', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% if current_user %>
+        <td><%= link_to 'Edit', edit_admin_project_path(project) %></td>
+        <td><%= link_to 'Delete', admin_project_path(project), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Project', new_project_path %>
